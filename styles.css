@@ -1,0 +1,114 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header {
+	background: #333;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #89c0f3 3px solid;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+header ul {
+	padding: 0;
+	list-style: none;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+button,
+input[type='submit'] {
+	display: inline-block;
+	background: #0779e4;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+button:hover,
+input[type='submit']:hover {
+	background: #055ab7;
+}
+
+form label {
+	display: block;
+	margin: 5px 0 5px 0;
+}
+
+form input[type='text'],
+form textarea,
+form select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+ul li {
+	background: #fff;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-left: #3e9ef8 5px solid;
+	border-right: #3e9ef8 5px solid;
+	border-radius: 3px;
+}
+
+ul li strong {
+	font-size: 20px;
+}
+
+ul li p {
+	margin: 5px 0;
+}
+
+ul li a {
+	color: #0779e4;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	text-decoration: none;
+	color: #840fc7;
+}
+
+.error {
+	color: red;
+}
